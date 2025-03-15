@@ -34,12 +34,12 @@ body {
 
 a {
 	transition: all 0.3s;
-	color: var(--primary);
+	color: var(--text-body);
 	outline: none !important;
 
 	&:hover {
 		opacity: 1;
-		color: var(--second);
+		color: var(--primary);
 	}
 }
 
@@ -51,7 +51,6 @@ h5,
 h6 {
 	font-family: $heading-font;
 	font-weight: 700;
-	color: var(--primary);
 }
 
 h1 {
